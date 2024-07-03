@@ -1,7 +1,7 @@
-# str = input("Enter your string ==> ")
-# str1 = str[::-1]
-# if str[::-1] == str1:
-#     print(f"{str} is palindrome")
+str = input("Enter your string ==> ")
+str1 = str[::-1]
+if str[::-1] == str1:
+     print(f"{str} is palindrome")
 
 str = input("Enter your string ==> ")
 list = []
@@ -15,6 +15,6 @@ for i in range(count):
 else:
     print(str1)
 
-# str = input("Enter your text -->\n")
-# count = str.count(".") + str.count("!") + str.count("?")
-# print(f"Count of strings in your text is {count}")
+str = input("Enter your text -->\n")
+count = str.count(".") + str.count("!") + str.count("?")
+print(f"Count of strings in your text is {count}")
